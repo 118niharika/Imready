@@ -1,0 +1,82 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f7fb;
+}
+
+.auth-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.input-group .icon {
+  margin-right: 10px;
+  color: rgb(51, 47, 248);
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 0.5rem;
+  background: transparent;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: rgb(53, 32, 239);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background: rgb(51, 47, 248);
+}
+
+.switch-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.switch-text span {
+  color: rgb(51, 47, 248);
+  cursor: pointer;
+  font-weight: bold;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem; /* more spacing for readability */
+  border: 1px solid #ddd;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  background: #fafafa;
+  transition: border 0.2s ease, background 0.2s ease;
+}
